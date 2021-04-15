@@ -71,7 +71,7 @@ if (bananaGroup.isTouching(player)){
   }
   else if(gameState === END){
   
-player.visible = true;
+player.visible = false;
 
 bananaGroup.destroyEach();
 obstaclesGroup.destroyEach();
